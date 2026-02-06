@@ -1,0 +1,11 @@
+o comando 
+
+npx create-next-app@latest my-app --yes
+cd my-app
+npm run dev
+
+cria toda a estrutura do projeto de Next.JS jacom oq presisaria
+ele vai para a pasta q acabou de criar
+roda o programa para saber se funcionou
+
+pra fexhar a porta (Crtl + c)
