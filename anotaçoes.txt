@@ -1,11 +1,34 @@
-o comando 
-
-npx create-next-app@latest my-app --yes
-cd my-app
-npm run dev
-
-cria toda a estrutura do projeto de Next.JS jacom oq presisaria
-ele vai para a pasta q acabou de criar
-roda o programa para saber se funcionou
-
+(lista de escolhas do npx create-next-app@latest my-app )
+duvidas sobre como testar olhar o README
 pra fexhar a porta (Crtl + c)
+
+Para mudar a pagina principal e nessesario ir para 
+next-01/app/page.js 
+
+Foi tambem criado 2 pastas 
+utils
+components
+
+.utils
+tem um index.js q esta fazendo uma funçao, q passa parte de uma url com dados vazios
+exeto o tamanho e o tipo de imagem
+
+.components
+esta criando, Avatar.js e Profile.js
+O Avatar esta pegando o dado de index.js, onde so a url q esta nele e o estilo de tamanho q o site usa
+e criando os outros dados
+
+O Profile, esta chamando o Avatar onde agora vai definir o tamanho da imagem em px
+ o nome da pessoa e o id da imagem no site
+
+<!--
+isso e um trab grande de mais pra pegar a img de um site
+ele divide em 3 partes esse trab 
+1 para pegar a url e aplica os dados
+2 para montar o esquema
+3 para aplicar
+
+podia ser so 2 passos 
+-->
+
+
