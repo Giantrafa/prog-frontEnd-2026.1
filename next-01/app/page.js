@@ -1,10 +1,10 @@
-import * as components from "@components";
-
+import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      ola mundo
+    <div>
+    <h1>Site criado para a diciplina de Programação Front-End</h1>
+    <Profile />
     </div>
   );
 }

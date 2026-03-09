@@ -1,28 +1,15 @@
-import Avatar from "./Avatar";
-
 export default function Profile() {
   return (
-    <div>
-      <Avatar
-        person={{
-          name: "Katsuko Saruhashi",
-          imageId: "YfeOqp2",
-        }}
-      />
-      <Avatar
-        size={80}
-        person={{
-          name: "Aklilu Lemma",
-          imageId: "OKS67lh",
-        }}
-      />
-      <Avatar
-        size={50}
-        person={{
-          name: "Lin Lanying",
-          imageId: "1bX5QH6",
-        }}
-      />
+    <div style={{ textAlign: "left", marginTop: "50px" }}>
+
+    <img
+      src = "/selfie.jpg"
+      alt = "foto Rafa"
+      width="150"      
+    />
+
+    <h2>Rafael Assis</h2>
+    <h3>Aluno da UNICAP</h3>      
     </div>
   );
 }
